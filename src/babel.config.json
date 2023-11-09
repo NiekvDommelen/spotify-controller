@@ -1,0 +1,9 @@
+{
+    "presets": [
+      // Your presets here
+    ],
+    "plugins": [
+      "@babel/plugin-syntax-import-attributes"
+    ]
+  }
+  

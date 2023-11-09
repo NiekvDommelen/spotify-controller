@@ -7,6 +7,19 @@
   pointer-events: none;
 }
 
+.action{
+  cursor:pointer;
+  padding: 25px;
+  padding-top: 20px;
+
+  border-radius: 10px;
+  
+}
+
+.action:hover{
+  background-color: rgb(69, 69, 69);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -27,6 +40,22 @@
 .App-link {
   color: #61dafb;
 }
+
+
+.progressBar{
+  width: 80vw;
+ 
+}
+
+.actions{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 60%;
+
+
+}
+
 
 @keyframes App-logo-spin {
   from {
